@@ -1,0 +1,14 @@
+
+spring:
+  profiles:
+    active: dev # dev环境
+
+# 日志文件的路径
+logging:
+  path: ${user.home}/${spring.profiles.active}/logs
+
+
+server:
+  port: 8082
+
+#context.initializer.classes: com.vonzhou.example.config.YamlFileApplicationContextInitializer

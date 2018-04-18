@@ -1,0 +1,11 @@
+# 工作目录配置
+spring:
+  profiles: online,test
+  workspace:
+    baseDir: /tmp/workspace/
+
+---
+spring:
+  profiles: dev
+  workspace:
+    baseDir: D:\\
